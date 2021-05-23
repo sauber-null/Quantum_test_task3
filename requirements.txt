@@ -1,0 +1,52 @@
+Introduction
+
+This document details the project plan for the development of unnamed application that predicts a target based on the proposed features.
+
+It is intended for anyone who will ever use this application. This plan will include a summary of:
+-	how the system will function
+-	the scope of the project from the development viewpoint
+-	the technology used to develop the project
+-	the metrics used to determine the application quality
+-	overall description
+
+Problem that includes some data set and the need of making prediction based on the data is very common now, when machine learning helps people in many aspects of modern life.
+
+Users
+
+The users of this unnamed application will be not general public but developers who will rate my test task during approval of my candidature for the Data Science Intern vacancy in Quantum Company.
+
+Functionality
+
+-	Users should be able to load training and testing data sets with specific file names
+-	Users should be able to get a file with predictions based on the training and testing data 
+
+Platform
+
+The application will be developed using Python language for Windows operating system.
+
+User Class and Characteristics
+
+There will be only one class of users that have access to all application functionality.
+
+System Features
+
+User Interfaces
+-	Back-end software: Python 3.8
+-	Data source: 2 CSV files named “internship_train.csv” with labels in the last column and “internship_hidden_test.csv”
+-	Output: file named “Prediction.csv” with a column of predictions for each testing example (10000)
+
+Hardware Interfaces
+-	Windows operating system personal computer or laptop with at least 6GB RAM
+
+Software Interfaces
+-	Installed Python 3.8
+-	Python IDE
+-	CSV reader
+
+Performance Requirements
+-	The application should generate a CSV file with a column of model predictions for the testing data
+
+Software Quality Attributes
+-	Accuracy: the main goal of the application is to predict a target as precisely as possible. Target metric is RMSE (root mean square error) between the prediction and actual testing labels
+
+
